@@ -1,0 +1,8 @@
+<h1>Lista de Usuarios</h1>
+<ul>
+    {% for u in usuarios%}
+    <li> {{ u.nome }} </li>
+    <li> {{ u.idade }} </li>
+    <li> {{ u.email }} </li>
+    {% endfor %}
+</ul>
